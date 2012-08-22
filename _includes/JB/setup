@@ -20,3 +20,4 @@
     {% endif %}  
   {% endif %}
 {% endcapture %}{% assign jbcache = nil %}
+<meta property="wb:webmaster" content="9d9fa85119aaee53" />
