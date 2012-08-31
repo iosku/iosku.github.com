@@ -11,6 +11,10 @@ tagline:
 
 #### netServiceBrowserDidStopSearch 一直没有被调用，为什么?
 <br/>
+
+> 当调用了 NSNetServiceBrowser - searchForServicesOfType: inDomain: 后，一直没有对 netServiceBrowserDidStopSearch 的回调，这是为什么?
+
+
 当 NSNetServiceBrowser 开始寻找后，会不停的寻找，直到调用了 -stop 这个
 方法。
 
